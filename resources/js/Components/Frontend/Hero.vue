@@ -71,17 +71,15 @@
                   flex
                   items-center
                   justify-center
-                  border border-blue-700
+                  border border-slate-900
                   hover:border-blue-700
-                  text-blue-700
+                  text-slate-900
                   hover:text-blue-700
                   hover:bg-white
-
-
                   dark:text-white
                   dark:hover:text-blue-700
                   dark:hover:bg-slate-900
-                  dark:border border-white
+                  dark:border-white
                   dark:hover:border-blue-700
                   mr-3
                   sm:mr-4
@@ -94,16 +92,20 @@
                             <a class="
                   w-12
                   h-12
-                  text-white
                   rounded-full
                   flex
                   items-center
                   justify-center
-                  border border-white
-                  text-black
+                   border border-slate-900
+                  hover:border-blue-700
+                  text-slate-900
+                  hover:text-blue-700
+                  hover:bg-white
                   dark:text-white
-                  hover:bg-light-secondary hover:border-light-secondary
-                  dark:hover:bg-dark-secondary dark:hover:border-dark-secondary
+                  dark:hover:text-blue-700
+                  dark:hover:bg-slate-900
+                  dark:border-white
+                  dark:hover:border-blue-700
                   mr-3
                   sm:mr-4
                 " href="https://facebook.com/laraveller">
@@ -117,14 +119,18 @@
                   h-12
                   rounded-full
                   flex
-                   text-white
                   items-center
                   justify-center
-                  border border-white
-                  text-black
+                  border border-slate-900
+                  hover:border-blue-700
+                  text-slate-900
+                  hover:text-blue-700
+                  hover:bg-white
                   dark:text-white
-                  hover:bg-light-secondary hover:border-light-secondary
-                  dark:hover:bg-dark-secondary dark:hover:border-dark-secondary
+                  dark:hover:text-blue-700
+                  dark:hover:bg-slate-900
+                  dark:border-white
+                  dark:hover:border-blue-700
                   mr-3
                   sm:mr-4
                 " href="https://facebook.com/laraveller">
@@ -138,15 +144,19 @@
                   h-12
                   rounded-full
                   flex
-                 text-white
 
                   items-center
                   justify-center
-                  border border-white
-                  text-black
+                   border border-slate-900
+                  hover:border-blue-700
+                  text-slate-900
+                  hover:text-blue-700
+                  hover:bg-white
                   dark:text-white
-                  hover:bg-light-secondary hover:border-light-secondary
-                  dark:hover:bg-dark-secondary dark:hover:border-dark-secondary
+                  dark:hover:text-blue-700
+                  dark:hover:bg-slate-900
+                  dark:border-white
+                  dark:hover:border-blue-700
                   mr-3
                   sm:mr-4
                 " href="https://facebook.com/laraveller">
@@ -159,7 +169,7 @@
                     </div>
                 </div>
                 <div class="flex flex-1 justify-end items-center h-full mt-8 md:mt-0">
-                    <img class="rounded-lg" src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="Hero" />
+                    <img class="rounded-lg" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;" src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="Hero" />
                 </div>
             </div>
         </div>

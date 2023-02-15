@@ -54,7 +54,7 @@ const filterProjects = (id) => {
               rounded-md
             " :class="[
                 selectedSkill == projectSkill.id
-                    ? 'bg-white dark:bg-slate-900'
+                    ? 'bg-white dark:bg-blue-900'
                     : 'bg-white dark:bg-slate-900',
             ]">
                         {{ projectSkill.name }}

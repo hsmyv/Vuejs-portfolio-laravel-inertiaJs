@@ -21725,7 +21725,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _hoisted_1 = {
   id: "portfolio",
-  "class": "section bg-light-primary dark:bg-dark-primary min-h-[1400px]"
+  "class": "section bg-white dark:bg-slate-900 min-h-[1400px] py-16"
 };
 var _hoisted_2 = {
   "class": "container mx-auto",
@@ -21850,7 +21850,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       onClick: function onClick($event) {
         return $setup.filterProjects(projectSkill.id);
       },
-      "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex text-center px-4 py-2 text-slate-900 dark:text-white dark:hover:text-blue-900 rounded-md", [$setup.selectedSkill == projectSkill.id ? 'bg-white dark:bg-slate-900' : 'bg-white dark:bg-slate-900']])
+      "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex text-center px-4 py-2 text-slate-900 dark:text-white dark:hover:text-blue-900 rounded-md", [$setup.selectedSkill == projectSkill.id ? 'bg-white dark:bg-blue-900' : 'bg-white dark:bg-slate-900']])
     }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(projectSkill.name), 11 /* TEXT, CLASS, PROPS */, _hoisted_5)]);
   }), 128 /* KEYED_FRAGMENT */))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_6, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.filteredProjects, function (project) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["Project"], {

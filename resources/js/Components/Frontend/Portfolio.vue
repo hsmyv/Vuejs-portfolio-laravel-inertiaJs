@@ -6,7 +6,8 @@ defineProps({
 });
 </script>
 <template>
-    <section id="portfolio" class="section bg-light-primary dark:bg-dark-primary min-h-[1400px]">
+    <section id="portfolio" class="section  bg-white
+      dark:bg-slate-900 min-h-[1400px] py-16">
         <div class="container mx-auto" v-motion :initial="{
             opacity: 0,
             y: 100,

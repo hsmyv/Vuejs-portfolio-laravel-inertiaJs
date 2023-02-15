@@ -17,13 +17,17 @@ defineProps({
         <img class="rounded-2xl h-56" :src="project.image" :alt="project.name" />
     </div>
     <span class="
-        group-hover:text-light-tail-500
+        text-slate-900
+        dark:text-white
         capitalize
         text-accent text-sm
         mb-3
       ">{{ project.skill.name }}</span>
     <h3 class="
-        group-hover:text-light-tail-500
+        text-slate-900
+        hover:text-slate-700
+         dark:text-white
+        dark:hover:text-blue-900
         text-2xl
         font-semibold
         capitalize

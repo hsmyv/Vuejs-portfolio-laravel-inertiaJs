@@ -8,7 +8,7 @@ const showMobileMenu = ref("false");
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a href="https://flowbite.com/" class="flex items-center">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
-                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">HStudio</span>
             </a>
 
             <button @click="showMobileMenu = !showMobileMenu" data-collapse-toggle="navbar-default" type="button"

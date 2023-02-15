@@ -22,7 +22,7 @@ const filterProjects = (id) => {
 };
 </script>
 <template>
-    <div class="container mx-auto">
+    <div class="container mx-auto py-8">
         <nav class="mb-12 border-b-2 border-light-tail-100 dark:text-dark-navy-100">
             <ul class="flex flex-col lg:flex-row justify-evenly items-center">
                 <li class="cursor-pointer capitalize m-4">
@@ -31,13 +31,17 @@ const filterProjects = (id) => {
               text-center
               px-4
               py-2
-              hover:bg-accent
-              text-white
+               text-slate-900
+              hover:text-white
+               bg-slate-900
+              hover:bg-slate-900
+              dark:text-white
+              dark:hover:bg-blue-900
               rounded-md
             " :class="[
               selectedSkill === 'all'
-                ? 'bg-accent'
-                : 'bg-light-tail-500 dark:bg-dark-navy-100',
+                ? 'bg-slate-900 text-white dark:bg-blue-900'
+                : 'bg-white dark:bg-slate-900',
             ]">
                         All
                     </button>
@@ -49,12 +53,15 @@ const filterProjects = (id) => {
               px-4
               py-2
               text-slate-900
+              hover:text-white
+               bg-slate-900
+              hover:bg-slate-900
               dark:text-white
-              dark:hover:text-blue-900
+              dark:hover:bg-blue-900
               rounded-md
             " :class="[
                 selectedSkill == projectSkill.id
-                    ? 'bg-white dark:bg-blue-900'
+                    ? 'bg-slate-900 text-white dark:bg-blue-900'
                     : 'bg-white dark:bg-slate-900',
             ]">
                         {{ projectSkill.name }}

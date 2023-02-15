@@ -1,3 +1,5 @@
+<script setup>
+</script>
 <template>
     <section id="about" class=" lg:h-[85vh]
       flex
@@ -30,7 +32,7 @@
                             About Me
                         </h2>
                         <P class=" text-slate-900
-              dark:text-white mb-4 text-accent">Freelance frontend Web developer</P>
+              dark:text-white mb-4 ">Freelance frontend Web developer</P>
                         <hr class="mb-8 opacity-90 dark:opacity-5" />
                         <p class=" text-slate-900
               dark:text-white mb-8">

@@ -46,7 +46,7 @@
                         </p>
                     </div>
                     <a href="#contact" class="
-                     btn btn-md bg-accent  inline-flex
+                     btn btn-md inline-flex
               items-center
               justify-center
               rounded-md

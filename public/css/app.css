@@ -766,6 +766,9 @@ select{
 .mr-3{
   margin-right: 0.75rem;
 }
+.mr-6{
+  margin-right: 1.5rem;
+}
 .mt-1{
   margin-top: 0.25rem;
 }
@@ -901,6 +904,9 @@ select{
 .shrink-0{
   flex-shrink: 0;
 }
+.grow{
+  flex-grow: 1;
+}
 .origin-top{
   transform-origin: top;
 }
@@ -1007,9 +1013,6 @@ select{
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
-.self-center{
-  align-self: center;
 }
 .overflow-hidden{
   overflow: hidden;
@@ -2712,9 +2715,6 @@ select{
   }
   .sm\:h-20{
     height: 5rem;
-  }
-  .sm\:h-9{
-    height: 2.25rem;
   }
   .sm\:max-w-md{
     max-width: 28rem;

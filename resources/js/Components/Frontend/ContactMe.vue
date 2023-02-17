@@ -41,8 +41,7 @@ const submit = () => {
               dark:text-white text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">Contact Me</h2>
                 <p class=" text-slate-900
               dark:text-white mb-4 ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-                    labore nisium illum cupiditate reiciendis a numquam
+                    Don't hesitate to reach out to me if you have any questions, ideas, or opportunities. I'd love to hear from you!
                 </p>
             </div>
             <div class="flex flex-col lg:flex-row lg:gap-x-8">
@@ -143,10 +142,13 @@ const submit = () => {
         class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         placeholder="Write your thoughts here..."></textarea>
     <span v-if="form.errors.body" class="text-sm m-2 text-red-400">{{ form.errors.body }}</span>
-    <button
+    <div>
+        <button
         class="bg-slate-900 hover:bg-slate-700 dark:bg-blue-700 dark:hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
         Send Message
     </button>
+    </div>
+
 </form>
 
             </div>

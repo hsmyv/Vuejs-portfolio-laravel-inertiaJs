@@ -16,8 +16,7 @@
               dark:text-white text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3" >What I do for clients</h2>
                 <p class="text-slate-900
               dark:text-white mb-8 text-accent">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-                    labore nisium illum cupiditate reiciendis a numquam
+                    I create custom solutions for clients through website design, game development, and SEO optimization.
                 </p>
             </div>
             <div class="py-8 grid lg:grid-cols-4 gap-8">
@@ -41,9 +40,7 @@
                     </div>
                     <h4 class=" dark:text-white text-xl font-medium mb-2">Web Design</h4>
                     <p class=" dark:text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                        perferendis volm quibusdam ullam qui dolore.
-                    </p>
+    An attractive and user-friendly website by designing its visual elements, layout, and user interface.</p>
                 </div>
 
 
@@ -69,8 +66,7 @@
                     </div>
                     <h4 class=" dark:text-white text-xl font-medium mb-2">Web Development</h4>
                     <p class=" dark:text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                        perferendis volm quibusdam ullam qui dolore.
+                        Crafting beautiful and functional websites through dynamic web development.
                     </p>
                 </div>
 
@@ -94,10 +90,9 @@
                                 d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
                         </svg>
                     </div>
-                    <h4 class=" dark:text-white text-xl font-medium mb-2">Branding</h4>
+                    <h4 class=" dark:text-white text-xl font-medium mb-2">Game Development</h4>
                     <p class=" dark:text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                        perferendis volm quibusdam ullam qui dolore.
+                        Creating immersive gaming experiences through expert game development.
                     </p>
                 </div>
 
@@ -122,8 +117,7 @@
                     </div>
                     <h4 class=" dark:text-white text-xl font-medium mb-2">SEO</h4>
                     <p class=" dark:text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                        perferendis volm quibusdam ullam qui dolore.
+                        Driving traffic and improving visibility through effective SEO strategies.
                     </p>
                 </div>
             </div>

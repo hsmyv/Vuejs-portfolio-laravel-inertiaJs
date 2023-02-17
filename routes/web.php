@@ -28,6 +28,8 @@ Route::middleware(['auth', 'verified'])->group(function(){
     return Inertia::render('Dashboard');
 })->name('dashboard');
 
+Route::post('/uploadcv', [WelcomeController::class, 'upload_cv'])->name('upload.cv');
+Route::get('/cv/download',[WelcomeController::class, 'download_cv'])->name('download.cv');
 
 Route::resource('/skills', SkillController::class);
 Route::resource('/projects', ProjectController::class);

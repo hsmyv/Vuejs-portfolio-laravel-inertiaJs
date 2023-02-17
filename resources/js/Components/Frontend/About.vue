@@ -32,17 +32,15 @@
                             About Me
                         </h2>
                         <P class=" text-slate-900
-              dark:text-white mb-4 ">Freelance frontend Web developer</P>
+              dark:text-white mb-4 ">Software engineer specializing in frontend, backend, and game development.</P>
                         <hr class="mb-8 opacity-90 dark:opacity-5" />
                         <p class=" text-slate-900
               dark:text-white mb-8">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                            earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                            neque harum velit molestiae dignissimos distinctio dolorum nisi
-                            labore culpa nihil. <br />
+                            Hi there! My name is Hasan and I'm a software developer with experience in both frontend and backend development. I also have a strong background in game development using Unity 3D. <br />
                             <br />
-                            Qui doloremque quod sit accusantium unde totam inventore
-                            cupiditate ratione esse maxime eum recusandae ducimus.
+                            Overall, I am a versatile software developer with a passion for creating beautiful, functional, and engaging applications. I'm always looking for new challenges and opportunities to learn and grow as a developer.
+                            <br/><br/>
+                            As a game developer with expertise in both frontend and backend development, I bring a comprehensive understanding of software engineering to the creation of dynamic and engaging games.
                         </p>
                     </div>
                     <a href="#contact" class="

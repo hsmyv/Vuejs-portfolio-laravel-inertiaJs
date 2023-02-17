@@ -26,16 +26,8 @@ onMounted(() => {
         'bg-sky-200 dark:bg-blue-900': !scrollBg,
     }">
         <div class="container flex flex-wrap justify-between items-center mx-auto" bis_skin_checked="1">
-            <a href="" class="flex items-center">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Laraveller Logo" />
-                <span class="
-                self-center
-                text-xl
-                font-semibold
-                whitespace-nowrap
-                dark:text-white
-              ">HStudio</span>
-            </a>
+                <img :src="'/storage/logo/logoweb.PNG'" class="mr-6 h-12 sm:h-13" alt="Laraveller Logo" />
+
             <button @click="showMobileMenu = !showMobileMenu" data-collapse-toggle="navbar-default" type="button" class="
               inline-flex
               items-center

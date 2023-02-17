@@ -20989,6 +20989,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Layouts_Authenticated_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/Authenticated.vue */ "./resources/js/Layouts/Authenticated.vue");
 /* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Components_Button_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Components/Button.vue */ "./resources/js/Components/Button.vue");
+/* harmony import */ var _Components_Input_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Components/Input.vue */ "./resources/js/Components/Input.vue");
+/* harmony import */ var _Components_Label_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Components/Label.vue */ "./resources/js/Components/Label.vue");
+/* harmony import */ var _Components_InputError_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Components/InputError.vue */ "./resources/js/Components/InputError.vue");
+
+
+
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -20996,11 +21004,26 @@ __webpack_require__.r(__webpack_exports__);
   setup: function setup(__props, _ref) {
     var expose = _ref.expose;
     expose();
+    var form = (0,_inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__.useForm)({
+      cv: null
+    });
+    var submit = function submit() {
+      form.post(route('upload.cv'));
+    };
     var __returned__ = {
+      form: form,
+      submit: submit,
       BreezeAuthenticatedLayout: _Layouts_Authenticated_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
       get Head() {
         return _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__.Head;
-      }
+      },
+      get useForm() {
+        return _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__.useForm;
+      },
+      BreezeButton: _Components_Button_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+      BreezeInput: _Components_Input_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+      BreezeLabel: _Components_Label_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+      InputError: _Components_InputError_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
     };
     Object.defineProperty(__returned__, '__isScriptSetup', {
       enumerable: false,
@@ -21654,7 +21677,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, null, -1 /* HOISTED */);
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-slate-900 dark:text-white mb-8"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Lorem ipsum dolor sit amet consectetur adipisicing elit tempore earum dolorum quo consequatur rem nihil hic ducimus rerum soluta neque harum velit molestiae dignissimos distinctio dolorum nisi labore culpa nihil. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Qui doloremque quod sit accusantium unde totam inventore cupiditate ratione esse maxime eum recusandae ducimus. ")], -1 /* HOISTED */);
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Hi there! My name is Hasan and I'm a software developer with experience in both frontend and backend development. I also have a strong background in game development using Unity 3D. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Overall, I am a versatile software developer with a passion for creating beautiful, functional, and engaging applications. I'm always looking for new challenges and opportunities to learn and grow as a developer. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" As a game developer with expertise in both frontend and backend development, I bring a comprehensive understanding of software engineering to the creation of dynamic and engaging games. ")], -1 /* HOISTED */);
 var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#contact",
   "class": "btn btn-md inline-flex items-center justify-center rounded-md border border-transparent bg-slate-900 dark:bg-blue-600 px-5 py-3 text-base font-medium text-white dark:text-white hover:bg-slate-700 dark:hover:bg-blue-700"
@@ -21667,7 +21690,7 @@ function render(_ctx, _cache) {
     "class": "text-slate-900 dark:text-white mb-4"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Freelance frontend Web developer")];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Software engineer specializing in frontend, backend, and game development.")];
     }),
     _: 1 /* STABLE */
   }), _hoisted_8, _hoisted_9]), _hoisted_10])])])), [[_directive_motion]])]);
@@ -21709,7 +21732,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "text-slate-900 dark:text-white text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3"
 }, "Contact Me"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-slate-900 dark:text-white mb-4"
-}, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam labore nisium illum cupiditate reiciendis a numquam ")], -1 /* HOISTED */);
+}, " Don't hesitate to reach out to me if you have any questions, ideas, or opportunities. I'd love to hear from you! ")], -1 /* HOISTED */);
 var _hoisted_4 = {
   "class": "flex flex-col lg:flex-row lg:gap-x-8"
 };
@@ -21792,9 +21815,9 @@ var _hoisted_21 = {
   key: 1,
   "class": "text-sm m-2 text-red-400"
 };
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "bg-slate-900 hover:bg-slate-700 dark:bg-blue-700 dark:hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
-}, " Send Message ", -1 /* HOISTED */);
+}, " Send Message ")], -1 /* HOISTED */);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_P = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("P");
@@ -21890,16 +21913,7 @@ var _hoisted_1 = {
   "class": "container flex flex-wrap justify-between items-center mx-auto",
   bis_skin_checked: "1"
 };
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "",
-  "class": "flex items-center"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "https://flowbite.com/docs/images/logo.svg",
-  "class": "mr-3 h-6 sm:h-9",
-  alt: "Laraveller Logo"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-}, "HStudio")], -1 /* HOISTED */);
+var _hoisted_2 = ["src"];
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "sr-only"
 }, "Open main menu", -1 /* HOISTED */);
@@ -21924,7 +21938,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["w-full fixed z-20 bg-sky-200 dark:bg-blue-900 px-2 sm:px-4 py-2.5 rounded", _defineProperty({
       'bg-sky-200 dark:bg-blue-900': $setup.scrollBg
     }, "bg-sky-200 dark:bg-blue-900", !$setup.scrollBg)])
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: '/storage/logo/logoweb.PNG',
+    "class": "mr-6 h-12 sm:h-13",
+    alt: "Laraveller Logo"
+  }, null, 8 /* PROPS */, _hoisted_2), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $setup.showMobileMenu = !$setup.showMobileMenu;
     }),
@@ -22157,7 +22175,7 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "bg-sky-200 dark:bg-blue-900"
 };
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8\"><h2 class=\"text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl\"><span class=\"block dark:text-white text-slate-900\">Would you like to learn more about my background?</span><span class=\"block dark:text-white text-slate-900\">You can learn more about my professional achievements and capabilities.</span></h2><div class=\"mt-8 flex lg:mt-0 lg:flex-shrink-0\"><div class=\"inline-flex rounded-md shadow\"><a href=\"https://www.udemy.com/course/laravel-9-admin-panel-learn-roles-and-permissions/\" class=\"inline-flex items-center justify-center rounded-md border border-transparent bg-white hover:bg-cyan-100 dark:bg-blue-600 px-5 py-3 text-base font-medium text-slate-900 dark:text-white dark:hover:bg-blue-700\">Get My CV</a></div></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8\"><h2 class=\"text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl\"><span class=\"block dark:text-white text-slate-900\">Would you like to learn more about my background?</span><span class=\"block dark:text-white text-slate-900\">You can learn more about my professional capabilities.</span></h2><div class=\"mt-8 flex lg:mt-0 lg:flex-shrink-0\"><div class=\"inline-flex rounded-md shadow\"><a href=\"cv/download\" class=\"inline-flex items-center justify-center rounded-md border border-transparent bg-white hover:bg-cyan-100 dark:bg-blue-600 px-5 py-3 text-base font-medium text-slate-900 dark:text-white dark:hover:bg-blue-700\">Get My CV</a></div></div></div>", 1);
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
@@ -22193,7 +22211,7 @@ var _hoisted_2 = {
     y: 0
   }
 };
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col items-center text-center\"><h2 class=\"text-slate-900 dark:text-white text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3\">What I do for clients</h2><p class=\"text-slate-900 dark:text-white mb-8 text-accent\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam labore nisium illum cupiditate reiciendis a numquam </p></div><div class=\"py-8 grid lg:grid-cols-4 gap-8\"><div class=\"bg-white dark:bg-slate-900 p-6 rounded-2xl\"><div class=\"dark:text-slate-900 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"dark:text-white h-24 w-24\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3\"></path></svg></div><h4 class=\"dark:text-white text-xl font-medium mb-2\">Web Design</h4><p class=\"dark:text-white\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore. </p></div><div class=\"bg-white dark:bg-slate-900 p-6 rounded-2xl\"><div class=\"dark:text-slate-900 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"dark:text-white h-24 w-24\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg></div><h4 class=\"dark:text-white text-xl font-medium mb-2\">Web Development</h4><p class=\"dark:text-white\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore. </p></div><div class=\"bg-white dark:bg-slate-900 p-6 rounded-2xl\"><div class=\"dark:text-slate-900 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"dark:text-white h-24 w-24\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5\"></path></svg></div><h4 class=\"dark:text-white text-xl font-medium mb-2\">Branding</h4><p class=\"dark:text-white\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore. </p></div><div class=\"bg-white dark:bg-slate-900 p-6 rounded-2xl\"><div class=\"dark:text-slate-900 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"dark:text-white h-24 w-24\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z\"></path></svg></div><h4 class=\"dark:text-white text-xl font-medium mb-2\">SEO</h4><p class=\"dark:text-white\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore. </p></div></div>", 2);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col items-center text-center\"><h2 class=\"text-slate-900 dark:text-white text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3\">What I do for clients</h2><p class=\"text-slate-900 dark:text-white mb-8 text-accent\"> I create custom solutions for clients through website design, game development, and SEO optimization. </p></div><div class=\"py-8 grid lg:grid-cols-4 gap-8\"><div class=\"bg-white dark:bg-slate-900 p-6 rounded-2xl\"><div class=\"dark:text-slate-900 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"dark:text-white h-24 w-24\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3\"></path></svg></div><h4 class=\"dark:text-white text-xl font-medium mb-2\">Web Design</h4><p class=\"dark:text-white\"> An attractive and user-friendly website by designing its visual elements, layout, and user interface.</p></div><div class=\"bg-white dark:bg-slate-900 p-6 rounded-2xl\"><div class=\"dark:text-slate-900 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"dark:text-white h-24 w-24\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg></div><h4 class=\"dark:text-white text-xl font-medium mb-2\">Web Development</h4><p class=\"dark:text-white\"> Crafting beautiful and functional websites through dynamic web development. </p></div><div class=\"bg-white dark:bg-slate-900 p-6 rounded-2xl\"><div class=\"dark:text-slate-900 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"dark:text-white h-24 w-24\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5\"></path></svg></div><h4 class=\"dark:text-white text-xl font-medium mb-2\">Game Development</h4><p class=\"dark:text-white\"> Creating immersive gaming experiences through expert game development. </p></div><div class=\"bg-white dark:bg-slate-900 p-6 rounded-2xl\"><div class=\"dark:text-slate-900 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"dark:text-white h-24 w-24\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z\"></path></svg></div><h4 class=\"dark:text-white text-xl font-medium mb-2\">SEO</h4><p class=\"dark:text-white\"> Driving traffic and improving visibility through effective SEO strategies. </p></div></div>", 2);
 var _hoisted_5 = [_hoisted_3];
 function render(_ctx, _cache) {
   var _directive_motion = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveDirective)("motion");
@@ -23169,16 +23187,34 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "font-semibold text-xl text-gray-800 leading-tight"
 }, " Dashboard ", -1 /* HOISTED */);
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_2 = {
   "class": "py-12"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+var _hoisted_3 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+var _hoisted_4 = {
   "class": "bg-white overflow-hidden shadow-sm sm:rounded-lg"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "p-6 bg-white border-b border-gray-200"
-}, " You're logged in! ")])])], -1 /* HOISTED */);
-
+}, " You're logged in! ", -1 /* HOISTED */);
+var _hoisted_6 = {
+  "class": "p-6 bg-white border-b border-gray-200"
+};
+var _hoisted_7 = {
+  "class": "py-12"
+};
+var _hoisted_8 = {
+  "class": "max-w-md mx-auto sm:px-6 lg:px-8 bg-white"
+};
+var _hoisted_9 = ["onSubmit"];
+var _hoisted_10 = {
+  "class": "mt-2"
+};
+var _hoisted_11 = {
+  "class": "flex items-center justify-end mt-4"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Head"], {
     title: "Dashboard"
@@ -23187,7 +23223,33 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [_hoisted_1];
     }),
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_2];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+        onSubmit: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)($setup.submit, ["prevent"])
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["BreezeLabel"], {
+        "for": "cv",
+        value: "Cv",
+        modelValue: $setup.form.cv,
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
+          return $setup.form.cv = $event;
+        })
+      }, null, 8 /* PROPS */, ["modelValue"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["BreezeInput"], {
+        id: "cv",
+        type: "file",
+        "class": "mt-1 block w-full",
+        onInput: _cache[1] || (_cache[1] = function ($event) {
+          return $setup.form.cv = $event.target.files[0];
+        })
+      })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["BreezeButton"], {
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["ml-4", {
+          'opacity-25': $setup.form.processing
+        }]),
+        disabled: $setup.form.processing
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Store ")];
+        }),
+        _: 1 /* STABLE */
+      }, 8 /* PROPS */, ["class", "disabled"])])], 40 /* PROPS, HYDRATE_EVENTS */, _hoisted_9)])])])])])])];
     }),
     _: 1 /* STABLE */
   })], 64 /* STABLE_FRAGMENT */);

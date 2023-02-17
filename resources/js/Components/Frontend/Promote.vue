@@ -18,11 +18,11 @@
           sm:text-4xl
         ">
                 <span class="block  dark:text-white text-slate-900">Would you like to learn more about my background?</span>
-                <span class="block dark:text-white text-slate-900">You can learn more about my professional achievements and capabilities.</span>
+                <span class="block dark:text-white text-slate-900">You can learn more about my professional capabilities.</span>
             </h2>
             <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
                 <div class="inline-flex rounded-md shadow">
-                    <a href="https://www.udemy.com/course/laravel-9-admin-panel-learn-roles-and-permissions/" class="
+                    <a href="cv/download" class="
               inline-flex
               items-center
               justify-center
@@ -44,3 +44,4 @@
         </div>
     </div>
 </template>
+

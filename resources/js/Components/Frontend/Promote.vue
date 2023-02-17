@@ -17,9 +17,8 @@
           text-gray-900
           sm:text-4xl
         ">
-                <span class="block  dark:text-white text-slate-900">Ready to dive in?</span>
-                <span class="block dark:text-white text-slate-900">Laravel 9 Admin Panel - Learn Roles and
-                    Permissions.</span>
+                <span class="block  dark:text-white text-slate-900">Would you like to learn more about my background?</span>
+                <span class="block dark:text-white text-slate-900">You can learn more about my professional achievements and capabilities.</span>
             </h2>
             <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
                 <div class="inline-flex rounded-md shadow">
@@ -39,7 +38,7 @@
               text-slate-900
               dark:text-white
               dark:hover:bg-blue-700
-            ">Get the Course</a>
+            ">Get My CV</a>
                 </div>
             </div>
         </div>

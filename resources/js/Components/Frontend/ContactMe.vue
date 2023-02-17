@@ -144,7 +144,7 @@ const submit = () => {
         placeholder="Write your thoughts here..."></textarea>
     <span v-if="form.errors.body" class="text-sm m-2 text-red-400">{{ form.errors.body }}</span>
     <button
-        class="bg-slate-700 hover:bg-slate-900 dark:bg-blue-700 dark:hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
+        class="bg-slate-900 hover:bg-slate-700 dark:bg-blue-700 dark:hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
         Send Message
     </button>
 </form>

@@ -35,6 +35,6 @@ Route::resource('/skills', SkillController::class);
 Route::resource('/projects', ProjectController::class);
 
 });
-
+Route::get('/privacy', [WelcomeController::class, 'getPrivacy']);
 
 require __DIR__.'/auth.php';

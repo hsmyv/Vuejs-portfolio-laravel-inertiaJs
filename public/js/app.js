@@ -21884,10 +21884,26 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "bg-sky-200 border-gray-200 dark:bg-blue-900 py-12"
 };
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container mx-auto\"><div class=\"flex flex-col md:flex-row space-y-6 lg:space-y-0 items-center justify-between\"><div class=\"flex space-x-6 items-center justify-center\"><img class=\"h-8 w-auto\" src=\"https://th.bing.com/th/id/R.0f8f96cd5a41d48ff45a75120dc9c610?rik=zh49jPCx5KaqyA&amp;pid=ImgRaw&amp;r=0\" alt=\"HSTUDIO\"></div><p class=\"block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-slate-900 md:p-0 dark:text-white opacity-80 text-[15px]\"> © 2023 HSTUDIO All right reserved. </p></div></div>", 1);
-var _hoisted_3 = [_hoisted_2];
+var _hoisted_2 = {
+  "class": "container mx-auto"
+};
+var _hoisted_3 = {
+  "class": "flex flex-col md:flex-row space-y-6 lg:space-y-0 items-center justify-between"
+};
+var _hoisted_4 = {
+  "class": "flex space-x-6 items-center justify-center"
+};
+var _hoisted_5 = ["src"];
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-slate-900 md:p-0 dark:text-white opacity-80 text-[15px]"
+}, " © 2023 HSTUDIO All right reserved. ", -1 /* HOISTED */);
+
 function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, _hoisted_3);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "h-8 w-auto",
+    src: '/storage/logo/logoweb.PNG',
+    alt: "HSTUDIO"
+  }, null, 8 /* PROPS */, _hoisted_5)]), _hoisted_6])])]);
 }
 
 /***/ }),
@@ -22041,7 +22057,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "text-slate-900 dark:text-white text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3"
 }, "My latest work"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-slate-900 dark:text-white mb-8"
-}, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam labore nisium illum cupiditate reiciendis a numquam ")], -1 /* HOISTED */);
+}, " Stay up-to-date with our latest website and game development projects, as we create cutting-edge experiences that push the boundaries of technology and user engagement. ")], -1 /* HOISTED */);
 var _hoisted_4 = [_hoisted_3];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _directive_motion = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveDirective)("motion");

@@ -20,8 +20,7 @@ defineProps({
               dark:text-white text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">My latest work</h2>
                 <p class=" text-slate-900
               dark:text-white mb-8">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-                    labore nisium illum cupiditate reiciendis a numquam
+                    Stay up-to-date with our latest website and game development projects, as we create cutting-edge experiences that push the boundaries of technology and user engagement.
                 </p>
             </div>
         </div>

@@ -12,6 +12,11 @@ use Inertia\Inertia;
 
 class WelcomeController extends Controller
 {
+
+    public function getPrivacy()
+    {
+        return view('privacy');
+    }
     public function welcome()
     {
         $skills = SkillResource::collection(Skill::all());
